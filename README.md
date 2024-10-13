@@ -12,7 +12,7 @@ Do join the official channel, [@MadelineProto](https://t.me/MadelineProto) and t
 
 This library can be used to easily interact with Telegram **without** the bot API, just like the official apps.
 
-It can login with a phone number (MTProto API), or with a bot token (MTProto API, **no bot API involved!**).
+It can log in with a phone number (MTProto API), or with a bot token (MTProto API, **no bot API involved!**).
 
 [It is now fully async](https://docs.madelineproto.xyz/docs/ASYNC.html)!
 
@@ -56,15 +56,15 @@ Tip: if you receive an error (or nothing), [send us](https://t.me/pwrtelegramgro
 
 ## Made with MadelineProto
 
-The following open source projects were created using MadelineProto: you can directly install them, or explore the source code as direct examples on how to use MadelineProto's many features!
+The following open-source projects were created using MadelineProto: you can directly install them, or explore the source code as direct examples on how to use MadelineProto's many features!
 
-* [magnaluna webradio](https://magna.madelineproto.xyz) - Multifeatured Telegram VoIP webradio
+* [magnaluna webradio](https://magna.madelineproto.xyz) - Multifeatured Telegram VoIP web-radio
 * [`simpleBot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/simpleBot.php) - Extremely basic example
 * [`tgstories_dl_bot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/tgstories_dl_bot.php) - Source code of [@tgstories_dl_bot](https://t.me/tgstories_dl_bot) - Bot to download any Telegram Story!
 * [`downloadRenameBot.php`](https://github.com/danog/downloadRenameBot/blob/main/bot.php) - Download files by URL and rename Telegram files using this async parallelized bot!
 * [`secret_bot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/secret_bot.php) - Secret chat bot!
 * [`pipesbot.php`](https://github.com/danog/pipesbot) - Creating inline bots and using other inline bots via a userbot!
-* [`bot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/bot.php) - Examples for how to use filters, updates, get download links for any file, Telegram Stories and much more!
+* [`bot.php`](https://github.com/danog/MadelineProto/blob/v8/examples/bot.php) - Examples for how to use filters, updates, get download links for any file, Telegram Stories, and much more!
 * [TelegramApiServer](https://github.com/xtrime-ru/TelegramApiServer) - Fast, simple, async php telegram api server: an HTTP JSON API for MadelineProto (for use in languages other than PHP, if using PHP use directly MadelineProto)
 
 Want to add your own open-source project to this list? [Click here!](https://docs.madelineproto.xyz/FOSS.html)
@@ -83,7 +83,7 @@ Some of MadelineProto's core components are also available as separate, standalo
 ## Documentation
 
 * [Creating a client](https://docs.madelineproto.xyz/docs/CREATING_A_CLIENT.html) - This page explains how to create a MadelineProto instance.
-* [Login](https://docs.madelineproto.xyz/docs/LOGIN.html) - There are many ways you can login with MadelineProto.
+* [Login](https://docs.madelineproto.xyz/docs/LOGIN.html) - There are many ways you can log in with MadelineProto.
   * [Getting permission to use the telegram API](https://docs.madelineproto.xyz/docs/LOGIN.html#getting-permission-to-use-the-telegram-api)
   * [Automatic](https://docs.madelineproto.xyz/docs/LOGIN.html#automatic)
   * [Manual (user)](https://docs.madelineproto.xyz/docs/LOGIN.html#manual-user)
@@ -101,7 +101,7 @@ Some of MadelineProto's core components are also available as separate, standalo
 * [Metrics](https://docs.madelineproto.xyz/docs/METRICS.html) - MadelineProto can expose many useful metrics, that can be visualized using the official MadelineProto Grafana dashboard.
 * [Installation](https://docs.madelineproto.xyz/docs/INSTALLATION.html) - There are various ways to install MadelineProto:
   * [Simple](https://docs.madelineproto.xyz/docs/INSTALLATION.html#simple)
-  * [Composer from existing project](https://docs.madelineproto.xyz/docs/INSTALLATION.html#composer-from-existing-project)
+  * [Composer from the existing project](https://docs.madelineproto.xyz/docs/INSTALLATION.html#composer-from-existing-project)
   * [Composer from scratch](https://docs.madelineproto.xyz/docs/INSTALLATION.html#composer-from-scratch)
 * [Broadcasting messages to all users](https://docs.madelineproto.xyz/docs/BROADCAST.html) - MadelineProto can be used to broadcast messages to all users, chats and channels of a bot or userbot.
 * [Handling updates (new messages & other events)](https://docs.madelineproto.xyz/docs/UPDATES.html) - Update handling can be done in different ways:
@@ -235,7 +235,7 @@ Some of MadelineProto's core components are also available as separate, standalo
   * [Configuration](https://docs.madelineproto.xyz/docs/UPDATES.html#configuration)
   * [Creating and uploading text files](https://docs.madelineproto.xyz/docs/UPDATES.html#creating-and-uploading-text-files)
   * [Logging](https://docs.madelineproto.xyz/docs/UPDATES.html#logging)
-* [Database](https://docs.madelineproto.xyz/docs/DATABASE.html) - MadelineProto optionally can keep some of its internal data in a database, such as mysql, mariadb, postgres or redis (you can also add your own!), reducing RAM usage.
+* [Database](https://docs.madelineproto.xyz/docs/DATABASE.html) - MadelineProto optionally can keep some of its internal data in a database, such as mysql, MariaDB, postgres or redis (you can also add your own!), reducing RAM usage.
   * [\danog\MadelineProto\Settings\Database\Memory: Memory backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Memory.html)
   * [\danog\MadelineProto\Settings\Database\Mysql: MySQL backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Mysql.html)
   * [\danog\MadelineProto\Settings\Database\Postgres: Postgres backend settings.](https://docs.madelineproto.xyz/PHP/danog/MadelineProto/Settings/Database/Postgres.html)
